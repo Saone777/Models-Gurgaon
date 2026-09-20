@@ -74,6 +74,9 @@ function Header() {
             src={NAV_LOGO}
             alt="ModelsGurgaon.com logo"
           />
+          <span className="logo-text">
+            <span className="site-name">Models Gurgaon</span>
+          </span>
         </a>
 
         <nav className={`main-nav ${open ? "open" : ""}`}>
